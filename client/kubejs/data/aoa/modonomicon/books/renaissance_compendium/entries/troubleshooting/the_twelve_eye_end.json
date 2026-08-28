@@ -1,0 +1,50 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "troubleshooting",
+  "description": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "endrem:magical_eye"
+  },
+  "name": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.page1.text",
+      "title": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.page2.text",
+      "title": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.page2.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.page3.text",
+      "title": "book.aoa.renaissance_compendium.troubleshooting.the_twelve_eye_end.page3.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 2,
+  "y": 0
+}

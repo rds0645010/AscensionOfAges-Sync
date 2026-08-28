@@ -1,0 +1,105 @@
+{
+  "catalystSpawnChance": 0.15,
+  "shouldSpawnCatalyst": true,
+  "lootTables": [
+    "minecraft:chests/abandoned_mineshaft",
+    "minecraft:chests/ancient_city",
+    "minecraft:chests/buried_treasure",
+    "minecraft:chests/end_city_treasure",
+    "minecraft:chests/ruined_portal",
+    "minecraft:chests/nether_bridge"
+  ],
+  "canReturnWithoutCatalyst": true,
+  "shouldGrassBurn": false,
+  "GrassBlocks": [
+    "minecraft:short_grass",
+    "minecraft:tall_grass"
+  ],
+  "SafeTeleportCheckRadius": 20,
+  "TeleportCatalystUses": 5,
+  "shouldTeleportReturnToSetWorld": false,
+  "returnSetWorld": "minecraft:overworld",
+  "afterdarkEventsEnabled": true,
+  "afterdarkEventChancePerCheck": 0.35,
+  "harderMobs": {
+    "enabled": true,
+    "concept": "Harder Mobs",
+    "powerBudget": {
+      "vanillaPlusScale": 0.85,
+      "moddedPackScale": 1.15,
+      "localDifficultyWeight": 0.35,
+      "distanceFromSpawnWeight": 0.2,
+      "biomeThreatWeight": 0.25,
+      "structureGuardianBonus": 0.3,
+      "minBudget": 8,
+      "maxBudget": 80
+    },
+    "variantRarity": {
+      "uncommonChance": 0.18,
+      "rareChance": 0.07,
+      "eliteChance": 0.018,
+      "nemesisChance": 0.002
+    },
+    "equipment": {
+      "enabled": true,
+      "allowModdedArmor": true,
+      "allowModdedWeapons": true,
+      "preferTaggedEquipment": true,
+      "mixArmorPieces": true,
+      "useArmorTrims": true,
+      "dyeLeatherArmor": true,
+      "maxNetheriteArmorPieces": 1,
+      "armorTrimChance": 0.65,
+      "leatherDyeChance": 0.85,
+      "maxArmorScore": 34,
+      "maxWeaponScore": 22,
+      "armorBlacklist": [],
+      "armorBlacklistExamples": [
+        "item:examplemod:creative_chestplate",
+        "tag:examplemod:overpowered_armor",
+        "mod:example_unsafe_gear_mod"
+      ]
+    },
+    "enchantments": {
+      "enabled": true,
+      "maxEnchantScore": 26,
+      "maxEnchantmentsPerItem": 3,
+      "roleBasedEnchantments": true,
+      "enchantmentBlacklist": [
+        "minecraft:vanishing_curse"
+      ]
+    },
+    "attributes": {
+      "enabled": true,
+      "maxHealthMultiplier": 2.5,
+      "maxDamageMultiplier": 1.75,
+      "maxSpeedMultiplier": 1.35,
+      "maxKnockbackResistance": 0.65,
+      "requireTradeoffForMajorBuffs": true
+    },
+    "effects": {
+      "enabled": true,
+      "preferConditionalEffects": true,
+      "maxPermanentEffectScore": 10,
+      "maxTriggeredEffectScore": 24,
+      "effectBlacklist": [
+        "minecraft:regeneration"
+      ]
+    },
+    "visuals": {
+      "enabled": true,
+      "showEliteNames": true,
+      "useParticles": true,
+      "useGlowingForNemesis": true
+    },
+    "exploration": {
+      "enabled": true,
+      "scaleWithBiomeThreat": true,
+      "scaleWithDistanceFromSpawn": true,
+      "boostStructureGuardians": true,
+      "rareVariantLootBonus": 0.2,
+      "eliteVariantLootBonus": 0.45,
+      "nemesisVariantLootBonus": 0.8
+    }
+  }
+}

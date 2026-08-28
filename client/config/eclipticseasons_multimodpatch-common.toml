@@ -1,0 +1,47 @@
+#Cold Sweat
+[cold_sweat]
+	Enable = true
+	TempModifier = false
+	#Spring Temperatures, divided into six periods according to the solar term table.
+	SpringTemps = [-0.25, -0.15, -0.1, 0.0, 0.0, 0.05]
+	#Summer Temperatures divided into six periods according to the solar term table.
+	SummerTemps = [0.1, 0.15, 0.15, 0.2, 0.2, 0.25]
+	#Autumn Temperatures divided into six periods according to the solar term table.
+	AutumnTemps = [0.15, 0.1, 0.05, 0.0, -0.1, -0.2]
+	#Winter Temperatures divided into six periods according to the solar term table.
+	WinterTemps = [-0.3, -0.35, -0.35, -0.5, -0.45, -0.4]
+
+#Diagonal Blocks
+[diagonalblocks]
+	Enable = true
+	fence = true
+	wall = true
+
+#Macaw's Roofs
+[mcwroofs]
+	#Enable automatic snow-covered blocks and models.
+	Enable = true
+
+#Domum Ornamentum
+[domum_ornamentum]
+	#Enable automatic snow-covered blocks and models.
+	Enable = true
+
+#Macaw's Bridges
+[mcwbridges]
+	#Enable automatic snow-covered blocks and models.
+	Enable = true
+
+#InControl
+[incontrol]
+	Enable = true
+
+#MineColonies
+[minecolonies]
+	Enable = true
+	# Default: 12000
+	# Range: 1 ~ 23999
+	AverageNightTime = 12000
+	# Default: 1000
+	# Range: -6000 ~ 6000
+	CheckSleepOffset = 1000

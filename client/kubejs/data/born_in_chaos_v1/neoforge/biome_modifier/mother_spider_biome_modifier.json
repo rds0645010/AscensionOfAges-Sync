@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#aoa:disabled_spawn_biomes",
+  "spawners": {
+    "type": "born_in_chaos_v1:mother_spider",
+    "weight": 13,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

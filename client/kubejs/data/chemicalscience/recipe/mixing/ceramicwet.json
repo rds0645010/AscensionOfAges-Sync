@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "group": "chemicalscience",
+  "ingredients": [
+    {
+      "tag": "c:clay"
+    },
+    {
+      "tag": "c:sands"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "electrodynamics:ceramicwet"
+    }
+  ]
+}

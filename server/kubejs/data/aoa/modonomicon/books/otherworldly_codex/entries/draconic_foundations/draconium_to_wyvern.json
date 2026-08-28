@@ -1,0 +1,12 @@
+{
+  "background_u_index": 0, "background_v_index": 0, "category": "draconic_foundations",
+  "description": "book.aoa.otherworldly_codex.draconic_foundations.draconium_to_wyvern.description",
+  "hide_while_locked": false,
+  "icon": { "item": "draconicevolution:draconium_core" },
+  "name": "book.aoa.otherworldly_codex.draconic_foundations.draconium_to_wyvern.name",
+  "pages": [
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.otherworldly_codex.draconic_foundations.draconium_to_wyvern.page1.text", "title": "book.aoa.otherworldly_codex.draconic_foundations.draconium_to_wyvern.page1.title", "use_markdown_in_title": false },
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.otherworldly_codex.draconic_foundations.draconium_to_wyvern.page2.text", "title": "book.aoa.otherworldly_codex.draconic_foundations.draconium_to_wyvern.page2.title", "use_markdown_in_title": false }
+  ],
+  "show_when_any_parent_unlocked": false, "sort_number": 0, "x": 0, "y": 0
+}

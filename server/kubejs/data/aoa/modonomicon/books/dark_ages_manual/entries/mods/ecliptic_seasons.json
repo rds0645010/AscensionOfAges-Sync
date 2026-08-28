@@ -1,0 +1,26 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mods",
+  "description": "book.aoa.dark_ages_manual.mods.ecliptic_seasons.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "eclipticseasons:calendar"
+  },
+  "name": "book.aoa.dark_ages_manual.mods.ecliptic_seasons.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.mods.ecliptic_seasons.page1.text",
+      "title": "book.aoa.dark_ages_manual.mods.ecliptic_seasons.page1.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 2,
+  "x": 4,
+  "y": 0
+}

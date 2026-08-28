@@ -1,0 +1,13 @@
+{
+  "_comment": "AoA night variety: Born in Chaos door_knight accent themed to plains. The generic skeleton family was culled in nightfix_bic_cull.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_plains",
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:door_knight",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

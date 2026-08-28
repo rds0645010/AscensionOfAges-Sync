@@ -1,0 +1,17 @@
+[Mechanics]
+	#Pin the active recipe-viewer integration. AoA ships EMI and JEI; AStages 2.5
+	#otherwise chooses by priority (REI > EMI > JEI).
+	#Changes require a server reload to take effect.
+	"Recipe Viewer" = "EMI"
+
+[Performances]
+	#Not implemented in AStages 2.5. Keep disabled until upstream implements it.
+	"Build Caches Asynchronously" = false
+
+[Experimental]
+	#Enable experimental settings for the LevelChunk class (Client-side only).
+	#Warning: May cause visual glitches.
+	"Enable LevelChunk Experiments" = false
+	#Enable experimental settings for the LevelChunkSection class (Client-side only).
+	#Warning: May cause visual glitches.
+	"Enable LevelChunkSection Experiments" = false

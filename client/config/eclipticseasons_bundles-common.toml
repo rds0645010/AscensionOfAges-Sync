@@ -1,0 +1,48 @@
+#pack_description.eclipticseasons_bundles.es_x_bwg_extra
+[es_x_bwg_extra]
+	#Enable compat package es_x_bwg_extra
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#pack_description.eclipticseasons_bundles.es_x_bwg
+[es_x_bwg]
+	#Enable compat package es_x_bwg
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#pack_description.eclipticseasons_bundles.es_x_quark
+[es_x_quark]
+	#Enable compat package es_x_quark
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#pack_description.eclipticseasons_bundles.es_x_terralith
+[es_x_terralith]
+	#Enable compat package es_x_terralith
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#pack_description.eclipticseasons_bundles.es_x_ru
+[es_x_ru]
+	#Enable compat package es_x_ru
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#pack_description.eclipticseasons_bundles.es_x_chipped_support
+[es_x_chipped_support]
+	#Enable compat package es_x_chipped_support
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#pack_description.eclipticseasons_bundles.es_x_letsdo
+[es_x_letsdo]
+	#Enable compat package es_x_letsdo
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false

@@ -1,0 +1,45 @@
+﻿# ==============================================================================
+# SENSITIVE, RUNTIME & SERVER-SPECIFIC DATA (NEVER COMMIT TO GIT)
+# ==============================================================================
+# World & Player Progress
+**/world/
+**/playerdata/
+**/stats/
+**/advancements/
+**/ftbteams/
+**/ftbessentials/
+**/tombstone/saved_players/
+
+# Logs & Incident Dumps
+**/logs/
+**/crash-reports/
+**/incidents/
+**/*.log
+**/*.log.gz
+**/*.marker
+**/*.save
+
+# Backups & Temp Storage
+**/simplebackups/
+**/backup*/
+**/.system_generated/
+**/.mixin.out/
+**/.pg-native/
+**/.sable/
+**/cache/
+**/dynamic-data-pack-cache/
+
+# Server Security & Player Auth (IPs, Ops, Whitelists)
+**/banned-ips.json
+**/banned-players.json
+**/ops.json
+**/whitelist.json
+**/usercache.json
+**/usernamecache.json
+**/server.properties
+
+# OS & Temp Files
+**/.DS_Store
+**/Thumbs.db
+**/*.tmp
+**/*.bak

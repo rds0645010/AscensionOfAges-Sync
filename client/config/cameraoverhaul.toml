@@ -1,0 +1,141 @@
+# Мета-данные, не модифицировать.
+# Default: 0
+configVersion = 2
+
+[general]
+
+	# Переключает все функции мода.
+	# Default: true
+	enabled = true
+	# Disable this to make the mod's effects exclusive to first-person view.
+	# Default: true
+	enableInThirdPerson = true
+	# Controls the sensitivity of the camera roll rotation caused by turning around horizontally.
+	# Default: 1.0
+	turningRollAccumulation = 1.0
+	# Controls the maximum strength of the camera roll rotation caused by turning around horizontally.
+	# Default: 1.25
+	turningRollIntensity = 1.25
+	# Controls the decay smoothness of the camera roll rotation caused by turning around horizontally.
+	# Default: 1.0
+	turningRollSmoothing = 1.0
+	# The strength of smooth random sway that kicks in when the player idles for enough time.
+	# Default: 0.6
+	cameraSwayIntensity = 0.6
+	# The frequency of smooth random sway that kicks in when the player idles for enough time.
+	# Default: 0.16
+	cameraSwayFrequency = 0.16
+	# The amount of time that the player must idle for before smooth random sway starts to fade-in.
+	# Default: 0.15
+	cameraSwayFadeInDelay = 0.15
+	# The amount of time it takes for smooth random sway to fade-in after the player idles for enough time.
+	# Default: 5.0
+	cameraSwayFadeInLength = 5.0
+	# The amount of time it takes for smooth random sway to fade-out when the player starts moving after idling.
+	# Default: 0.75
+	cameraSwayFadeOutLength = 0.75
+	# Maximum strength of all screen shaking effects.
+	# Default: 2.5
+	screenShakesMaxIntensity = 2.5
+	# Speed at which screen shaking rotations change direction or oscillate.
+	# Default: 6.0
+	screenShakesMaxFrequency = 6.0
+	# A [0..1] value linked to the strength of screen shaking caused by explosions.
+	# Default: 1.0
+	explosionTrauma = 1.0
+	# A [0..1] value linked to the strength of screen shaking caused by lightning bolt-tied thunder.
+	# Default: 0.05
+	thunderTrauma = 0.05
+	# A [0..1] value linked to the strength of screen shaking caused by any actions that swing the player's arm. Best kept very low.
+	# Default: 0.03
+	handSwingTrauma = 0.03
+
+[walking]
+
+	# Управляет силой крена камеры, вызванной боковым движением.
+	# Default: 10.0
+	strafingRollFactor = 10.0
+	# Управляет силой смещения угла камеры, вызванного перемещением вперёд или назад.
+	# Default: 7.0
+	forwardVelocityPitchFactor = 7.0
+	# Управляет силой смещения угла поворота камеры, вызванного вертикальной скоростью.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# Управляет плавностью поворота камеры по тангажу и крену от горизонтального перемещения.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Управляет плавностью изменения угла наклона камеры, вызванного перемещением по вертикали.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[swimming]
+
+	# Управляет силой крена камеры, вызванной боковым движением.
+	# Default: -30.0
+	strafingRollFactor = -30.0
+	# Управляет силой смещения угла камеры, вызванного перемещением вперёд или назад.
+	# Default: 21.0
+	forwardVelocityPitchFactor = 21.0
+	# Управляет силой смещения угла поворота камеры, вызванного вертикальной скоростью.
+	# Default: 7.5
+	verticalVelocityPitchFactor = 7.5
+	# Управляет плавностью поворота камеры по тангажу и крену от горизонтального перемещения.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Управляет плавностью изменения угла наклона камеры, вызванного перемещением по вертикали.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[flying]
+
+	# Управляет силой крена камеры, вызванной боковым движением.
+	# Default: -10.0
+	strafingRollFactor = -10.0
+	# Управляет силой смещения угла камеры, вызванного перемещением вперёд или назад.
+	# Default: 7.0
+	forwardVelocityPitchFactor = 7.0
+	# Управляет силой смещения угла поворота камеры, вызванного вертикальной скоростью.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# Управляет плавностью поворота камеры по тангажу и крену от горизонтального перемещения.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Управляет плавностью изменения угла наклона камеры, вызванного перемещением по вертикали.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[mounts]
+
+	# Управляет силой крена камеры, вызванной боковым движением.
+	# Default: 20.0
+	strafingRollFactor = 20.0
+	# Управляет силой смещения угла камеры, вызванного перемещением вперёд или назад.
+	# Default: 7.0
+	forwardVelocityPitchFactor = 7.0
+	# Управляет силой смещения угла поворота камеры, вызванного вертикальной скоростью.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# Управляет плавностью поворота камеры по тангажу и крену от горизонтального перемещения.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Управляет плавностью изменения угла наклона камеры, вызванного перемещением по вертикали.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[vehicles]
+
+	# Управляет силой крена камеры, вызванной боковым движением.
+	# Default: 5.0
+	strafingRollFactor = 5.0
+	# Управляет силой смещения угла камеры, вызванного перемещением вперёд или назад.
+	# Default: 1.75
+	forwardVelocityPitchFactor = 1.75
+	# Управляет силой смещения угла поворота камеры, вызванного вертикальной скоростью.
+	# Default: 5.0
+	verticalVelocityPitchFactor = 5.0
+	# Управляет плавностью поворота камеры по тангажу и крену от горизонтального перемещения.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Управляет плавностью изменения угла наклона камеры, вызванного перемещением по вертикали.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0

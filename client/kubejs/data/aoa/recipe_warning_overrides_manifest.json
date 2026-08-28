@@ -1,0 +1,127 @@
+{
+    "source_log":  "logs/kubejs/server.log",
+    "reason":  "Overrides for recipe IDs that emitted KubeJS WARN lines during the 2026-05-20 launch log.",
+    "preserve_namespaces":  [
+                                "avaritia",
+                                "create_sa",
+                                "create_ultimate_factory"
+                            ],
+    "disabled_condition_modid":  "aoa_recipe_disabled_by_codex",
+    "entries":  [
+                    {
+                        "id":  "alexscaves:metal_swarf",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "create_ultimate_factory:compat/aeronautics_mixing_endstonepowder",
+                        "action":  "preserved",
+                        "source":  "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar!/data/create_ultimate_factory/recipe/compat/aeronautics_mixing_endstonepowder.json"
+                    },
+                    {
+                        "id":  "create_sa:steam_engine_recipe",
+                        "action":  "preserved",
+                        "source":  "kubejs/data/create_sa/recipe/steam_engine_recipe.json"
+                    },
+                    {
+                        "id":  "avaritia:infinity_chest",
+                        "action":  "preserved",
+                        "source":  "AvaritiaNeo-1.21-1.3.1.jar!/data/avaritia/recipe/infinity_chest.json"
+                    },
+                    {
+                        "id":  "create_sa:hydraulic_engine_recipe",
+                        "action":  "preserved",
+                        "source":  "kubejs/data/create_sa/recipe/hydraulic_engine_recipe.json"
+                    },
+                    {
+                        "id":  "oritech:silicon_blockblock",
+                        "action":  "native_silicon_override",
+                        "source":  "oritech-neoforge-1.21.1-1.2.8.jar!/data/oritech/recipe/silicon_blockblock.json"
+                    },
+                    {
+                        "id":  "chemicalscience:smelting/silicon_ingot_from_dust",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "electrodynamics:gaspipe_plastic_vertical",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "energizedpower:crafting/silicon_block",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "refinedstorage:raw_advanced_processor",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "bellsandwhistles:metro/metro_window",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "electrodynamics:insulation_from_plastic",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "create_sa:heat_engine_recipe",
+                        "action":  "preserved",
+                        "source":  "kubejs/data/create_sa/recipe/heat_engine_recipe.json"
+                    },
+                    {
+                        "id":  "refinedstorage:raw_improved_processor",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "enderio:photovoltaic_composite",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "ifeu:shaped/big_dissolution_chamber",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "create_sa:incomplete_book_recipe",
+                        "action":  "preserved",
+                        "source":  "kubejs/data/create_sa/recipe/incomplete_book_recipe.json"
+                    },
+                    {
+                        "id":  "refinedstorage:raw_basic_processor",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "electrodynamics:gaspipe_plastic_horizontal",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "ifeu:shaped/fluid_transfer",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    },
+                    {
+                        "id":  "oritechthings:advanced_target_designator",
+                        "action":  "native_silicon_override",
+                        "source":  "oritechthings-0.0.44.jar!/data/oritechthings/recipe/advanced_target_designator.json"
+                    },
+                    {
+                        "id":  "create_sa:incomplete_web_recipe",
+                        "action":  "preserved",
+                        "source":  "kubejs/data/create_sa/recipe/incomplete_web_recipe.json"
+                    },
+                    {
+                        "id":  "industrialforegoing:straw",
+                        "action":  "disabled_empty_component_warning",
+                        "source":  "log-derived override"
+                    }
+                ]
+}

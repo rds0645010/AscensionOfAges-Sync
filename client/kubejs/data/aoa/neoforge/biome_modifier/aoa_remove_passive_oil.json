@@ -1,0 +1,10 @@
+{
+  "_comment": "AoA single-oil-source: oil only comes from pumpjacks/rigs, never from passive worldgen. Cancels ChemicalScience oil-ore and Oritech oil-spring generation. (PneumaticCraft oil lakes are already off via its config dimension blacklist; CDG oil chunks + IP reservoirs are the sanctioned sources and stay.)",
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "chemicalscience:oil_ore_placed",
+    "oritech:oil_spring",
+    "oritech:oil_spring_desert"
+  ]
+}

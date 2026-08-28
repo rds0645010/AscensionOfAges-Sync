@@ -1,0 +1,64 @@
+[
+  {
+    "mob": [
+      "ftboceanmobs:abyssal_sludge",
+      "ftboceanmobs:corrosive_craig",
+      "ftboceanmobs:abyssal_winged"
+    ],
+    "weights": [
+      4,
+      2,
+      1
+    ],
+    "persecond": 0.025,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": true,
+      "mindist": 32,
+      "maxdist": 96,
+      "minheight": 32,
+      "maxheight": 96,
+      "maxthis": 8,
+      "maxhostile": 70,
+      "and": {
+        "biometags": "minecraft:is_ocean",
+        "seesky": true
+      }
+    }
+  },
+  {
+    "mob": [
+      "ftboceanmobs:shadow_beast",
+      "ftboceanmobs:tentacled_horror"
+    ],
+    "weights": [
+      3,
+      1
+    ],
+    "persecond": 0.01,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": true,
+      "mindist": 48,
+      "maxdist": 120,
+      "minheight": 16,
+      "maxheight": 80,
+      "maxthis": 4,
+      "maxhostile": 70,
+      "and": {
+        "biometags": "minecraft:is_deep_ocean",
+        "seesky": true
+      }
+    }
+  }
+]

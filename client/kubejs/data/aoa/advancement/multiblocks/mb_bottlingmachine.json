@@ -1,0 +1,31 @@
+{
+  "parent": "immersiveengineering:multiblocks/multiblocks_root",
+  "criteria": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/bottling_machine"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.aoa.multiblocks.mb_bottlingmachine.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:fluid_pipe"
+    },
+    "title": {
+      "translate": "advancement.aoa.multiblocks.mb_bottlingmachine.title"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ]
+  ]
+}

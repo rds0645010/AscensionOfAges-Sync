@@ -1,0 +1,43 @@
+#Add seasonal changes or texture effects to some blocks.
+[es_x_bwg_extra]
+	#Enable compat package es_x_bwg_extra
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Removes seasonal limits for saplings and mushrooms.
+#Adds humidity rules, snow-covered grass variants, and fixes biome tags for natural seasonal behavior.
+[es_x_bwg]
+	#Enable compat package es_x_bwg
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Snow-covered models for vertical slabs.
+[es_x_quark]
+	#Enable compat package es_x_quark
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Adds color and climate fix for Terralith.
+[es_x_terralith]
+	#Enable compat package es_x_terralith
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Adds seasonal and humidity rules for crops.
+#Snow-covered models for grass, bamboo, and leaves, with autumnal color adjustments for themed biomes.
+[es_x_ru]
+	#Enable compat package es_x_ru
+	Enable = false
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Adds snowy variant support for Chipped's connected texture blocks.
+[es_x_chipped_support]
+	#Enable compat package es_x_chipped_support
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false

@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.ascension_codex.mechanics.neutronium_and_extreme.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "avaritia:compressor"
+  },
+  "name": "book.aoa.ascension_codex.mechanics.neutronium_and_extreme.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.ascension_codex.mechanics.neutronium_and_extreme.page1.text",
+      "title": "book.aoa.ascension_codex.mechanics.neutronium_and_extreme.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.ascension_codex.mechanics.neutronium_and_extreme.page2.text",
+      "title": "book.aoa.ascension_codex.mechanics.neutronium_and_extreme.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 2,
+  "y": 0
+}

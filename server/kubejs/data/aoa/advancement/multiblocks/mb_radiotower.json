@@ -1,0 +1,31 @@
+{
+  "parent": "immersiveengineering:multiblocks/multiblocks_root",
+  "criteria": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/radio_tower"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.aoa.multiblocks.mb_radiotower.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:radiator"
+    },
+    "title": {
+      "translate": "advancement.aoa.multiblocks.mb_radiotower.title"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ]
+  ]
+}

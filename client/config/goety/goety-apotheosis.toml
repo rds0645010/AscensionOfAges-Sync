@@ -1,0 +1,5 @@
+#Maximum potency contributed by socketed gems to each potency attribute on one wand.
+#Affixes and all non-gem bonuses are not affected.
+# Default: 5.0
+# Range: 0.0 ~ 1000.0
+maxGemPotencyPerWand = 5.0

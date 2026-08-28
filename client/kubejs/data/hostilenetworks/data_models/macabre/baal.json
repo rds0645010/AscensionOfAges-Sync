@@ -1,0 +1,18 @@
+{
+  "entity": "macabre:baal",
+  "variants": [],
+  "name": {
+    "translate": "entity.macabre.baal",
+    "color": "#6A1616"
+  },
+  "display": {},
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "aoa.trivia.no_fabricated_spine_boss_proof",
+  "fabricator_drops": []
+}

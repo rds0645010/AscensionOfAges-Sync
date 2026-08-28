@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mods",
+  "description": "book.aoa.industrial_codex.mods.tfmg_owns_crude.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "tfmg:crude_oil_bucket"
+  },
+  "name": "book.aoa.industrial_codex.mods.tfmg_owns_crude.name",
+  "pages": [
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.industrial_codex.mods.tfmg_owns_crude.page1.text",
+      "title": "book.aoa.industrial_codex.mods.tfmg_owns_crude.page1.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    },
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.industrial_codex.mods.tfmg_owns_crude.page2.text",
+      "title": "book.aoa.industrial_codex.mods.tfmg_owns_crude.page2.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

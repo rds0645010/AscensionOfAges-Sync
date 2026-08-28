@@ -1,0 +1,31 @@
+{
+  "_comment": "AoA night variety: Born in Chaos spirit family (restless_spirit, spirit_guide, spiritof_chaos, dark_vortex) themed to swamps after the nightfix_bic_cull filler pass.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_swamp",
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:restless_spirit",
+      "weight": 14,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "born_in_chaos_v1:spirit_guide",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "born_in_chaos_v1:spiritof_chaos",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "born_in_chaos_v1:dark_vortex",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

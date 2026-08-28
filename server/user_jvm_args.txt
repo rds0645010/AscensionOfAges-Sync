@@ -1,0 +1,7 @@
+-Xms4G
+-Xmx6G
+-XX:+UseG1GC
+-XX:+UnlockExperimentalVMOptions
+-XX:+UnlockDiagnosticVMOptions
+-XX:+ParallelRefProcEnabled
+-XX:MaxGCPauseMillis=200

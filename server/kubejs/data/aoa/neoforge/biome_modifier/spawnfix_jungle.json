@@ -1,0 +1,16 @@
+{
+  "_comment": "AoA modded-biome spawn fix: LivingThings jungle fauna on #minecraft:is_jungle (RU/BWG/Terralith all populate it). Mirrors config/livingthings/*.json (koala/monkey/peacock jungle groups; bamboo_jungle folded into the is_jungle tag).",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_jungle",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:koala", "weight": 50, "minCount": 3, "maxCount": 8 },
+    { "type": "livingthings:monkey", "weight": 50, "minCount": 4, "maxCount": 7 },
+    { "type": "livingthings:peacock", "weight": 50, "minCount": 4, "maxCount": 7 }
+  ]
+}

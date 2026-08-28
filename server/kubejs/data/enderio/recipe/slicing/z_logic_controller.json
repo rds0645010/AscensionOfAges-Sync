@@ -1,0 +1,28 @@
+{
+  "type": "enderio:slicing",
+  "energy": 20000,
+  "inputs": [
+    {
+      "tag": "c:ingots/soularium"
+    },
+    {
+      "item": "minecraft:zombie_head"
+    },
+    {
+      "tag": "c:ingots/soularium"
+    },
+    {
+      "item": "enderio:silicon"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "enderio:silicon"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio:z_logic_controller"
+  }
+}

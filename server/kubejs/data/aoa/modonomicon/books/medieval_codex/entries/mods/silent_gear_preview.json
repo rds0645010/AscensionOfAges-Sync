@@ -1,0 +1,50 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mods",
+  "description": "book.aoa.medieval_codex.mods.silent_gear_preview.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "silentgear:alloy_forge"
+  },
+  "name": "book.aoa.medieval_codex.mods.silent_gear_preview.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.medieval_codex.mods.silent_gear_preview.page1.text",
+      "title": "book.aoa.medieval_codex.mods.silent_gear_preview.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.medieval_codex.mods.silent_gear_preview.page2.text",
+      "title": "book.aoa.medieval_codex.mods.silent_gear_preview.page2.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.medieval_codex.mods.silent_gear_preview.page3.text",
+      "title": "book.aoa.medieval_codex.mods.silent_gear_preview.page3.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 4,
+  "x": 4,
+  "y": 2
+}

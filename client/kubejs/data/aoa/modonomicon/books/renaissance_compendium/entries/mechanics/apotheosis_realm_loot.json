@@ -1,0 +1,26 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.renaissance_compendium.mechanics.apotheosis_realm_loot.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "apotheosis:gem"
+  },
+  "name": "book.aoa.renaissance_compendium.mechanics.apotheosis_realm_loot.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.mechanics.apotheosis_realm_loot.page1.text",
+      "title": "book.aoa.renaissance_compendium.mechanics.apotheosis_realm_loot.page1.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 4,
+  "x": 2,
+  "y": 2
+}

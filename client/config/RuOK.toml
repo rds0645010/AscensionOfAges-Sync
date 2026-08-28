@@ -1,0 +1,12 @@
+maxLivingEntities = 128
+AutoQuality = false
+maxEntityEntities = 128
+entitiesDistance = 64
+QualityModes = "NORMAL"
+RenderWeather = "LOW"
+RenderTNTExplosions = true
+FastItemRender = false
+RenderDisplayItem = false
+blackListedEntities = []
+whiteListedEntities = []
+isAlwaysShowItemCount = true

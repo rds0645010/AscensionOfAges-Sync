@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:crushed_raw_materials/andesite"
+    },
+    {
+      "tag": "c:andesite_alloy_nuggets"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:andesite_alloy"
+    }
+  ],
+  "heat_requirement": "heated"
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "immersiveengineering:multiblocks/multiblocks_root",
+  "criteria": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/sawmill"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.aoa.multiblocks.mb_sawmill.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:sawblade"
+    },
+    "title": {
+      "translate": "advancement.aoa.multiblocks.mb_sawmill.title"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ]
+  ]
+}

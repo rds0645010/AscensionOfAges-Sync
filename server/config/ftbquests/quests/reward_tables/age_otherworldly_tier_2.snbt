@@ -1,0 +1,79 @@
+{
+	icon: {
+		id: "stellaris:uranium_ingot"
+	}
+	id: "7C575F1AB5133D96"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			count: 4
+			id: "726F21B8903FD50B"
+			item: {
+				count: 1
+				id: "stellaris:uranium_ingot"
+			}
+		}
+		{
+			count: 6
+			id: "04255DDF3E0C3456"
+			item: {
+				count: 1
+				id: "stellaris:plutonium_nugget"
+			}
+		}
+		{
+			count: 8
+			id: "2EA2886C1718EF75"
+			item: {
+				count: 1
+				id: "draconicevolution:draconium_nugget"
+			}
+		}
+		{
+			count: 6
+			id: "1E7F10179582A4DC"
+			item: {
+				count: 1
+				id: "stellaris:neptunium_piece"
+			}
+		}
+		{
+			count: 2
+			id: "5603A7350B0B98C5"
+			item: {
+				count: 1
+				id: "stellaris:battery"
+			}
+		}
+		{ id: "46D890DD7CB7F6EA", item: { count: 1, id: "stellaris:oil_finder" } }
+		{ id: "5A4C643DE2FAC667", item: { count: 1, id: "stellaris:tablet" } }
+		{
+			count: 4
+			id: "05343F43F9A8831D"
+			item: {
+				count: 1
+				id: "spectrum:paltaeria_gem"
+			}
+		}
+		{ id: "1BE8EA98B1FD5318", item: { count: 1, id: "draconicevolution:magnet" } }
+		{
+			count: 3
+			id: "58E5190FB16F8D31"
+			item: {
+				count: 1
+				id: "oritech:uranium_gem"
+			}
+		}
+		{
+			count: 4
+			id: "677455F31E6FA38C"
+			item: {
+				count: 1
+				id: "alexsmobs:enderiophage_rocket"
+			}
+		}
+		{ id: "7CC5FC464275A9B3", item: { count: 1, id: "alexsmobs:music_disc_daze" } }
+	]
+	use_title: true
+}

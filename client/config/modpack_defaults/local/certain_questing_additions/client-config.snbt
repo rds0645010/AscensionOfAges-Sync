@@ -1,0 +1,14 @@
+{
+	animations: {
+		panel_animation: true
+		panel_button_hover: true
+		quest_hover: true
+		smooth_scrolling: true
+	}
+	appearance: {
+		button_hover_glow_alpha: 90
+		quest_hover_glow_alpha: 180
+		shader_background: true
+		smooth_animations: true
+	}
+}

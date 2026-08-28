@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "asc7_ascension"
+	group: "6A196D2B21EDE4C0"
+	icon: {
+		id: "extendedcrafting:the_ultimate_block"
+	}
+	id: "4153010000000000"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5449010000010006"
+				"5044010000010006"
+				"4448010000010005"
+				"494D010000010006"
+				"425201000001000B"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "extendedcrafting:the_ultimate_block"
+			}
+			id: "4153010000010001"
+			shape: "gear"
+			size: 1.3d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4153012000010001"
+				item: { count: 1, id: "extendedcrafting:the_ultimate_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4153010000010001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "avaritia:infinity_ingot"
+			}
+			id: "4153010000010002"
+			rewards: [
+				{
+					advancement: "aoa:journey/ascension_sealed"
+					auto: "enabled"
+					criterion: ""
+					id: "4030FCE09C3712F6"
+					type: "advancement"
+				}
+				{
+					auto: "enabled"
+					id: "4153013002010002"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "aoa_complete"
+					type: "astages:player"
+				}
+				{
+					id: "0A1F8FE3D6B31C9A"
+					table_id: 2417525987218827012L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4153012000010002"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}
+			{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				hand_mode: "ANY"
+				id: "5EC0FAD2C7294278"
+				item: { components: { "modonomicon:book_id": "aoa:ascension_codex" }, count: 1, id: "modonomicon:modonomicon" }
+				match_components: "fuzzy"
+				type: "use_item"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

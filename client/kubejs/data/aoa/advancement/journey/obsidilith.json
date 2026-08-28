@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    "title": {
+      "translate": "advancement.aoa.journey.obsidilith.title"
+    },
+    "description": {
+      "translate": "advancement.aoa.journey.obsidilith.description"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  }
+}

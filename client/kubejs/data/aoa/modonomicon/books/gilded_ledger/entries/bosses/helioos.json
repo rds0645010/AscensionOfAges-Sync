@@ -1,0 +1,17 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "bosses",
+  "description": "book.aoa.gilded_ledger.bosses.helioos.description",
+  "hide_while_locked": false,
+  "icon": { "item": "astral_dimension:helioos_spawn_egg" },
+  "name": "book.aoa.gilded_ledger.bosses.helioos.name",
+  "pages": [
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.gilded_ledger.bosses.helioos.page1.text", "title": "book.aoa.gilded_ledger.bosses.helioos.page1.title", "use_markdown_in_title": false },
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.gilded_ledger.bosses.helioos.page2.text", "title": "book.aoa.gilded_ledger.bosses.helioos.page2.title", "use_markdown_in_title": false }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 6,
+  "x": 0,
+  "y": 4
+}

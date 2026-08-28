@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.ascension_codex.mechanics.table_of_infinities.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "extendedcrafting:ultimate_table"
+  },
+  "name": "book.aoa.ascension_codex.mechanics.table_of_infinities.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.ascension_codex.mechanics.table_of_infinities.page1.text",
+      "title": "book.aoa.ascension_codex.mechanics.table_of_infinities.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.ascension_codex.mechanics.table_of_infinities.page2.text",
+      "title": "book.aoa.ascension_codex.mechanics.table_of_infinities.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

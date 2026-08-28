@@ -1,0 +1,14 @@
+{
+  "_comment": "AoA modded-biome spawn fix: add a low-density CNB sporeling entry to non-vanilla lush biomes only.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#c:is_lush",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "cnb:sporeling", "weight": 12, "minCount": 1, "maxCount": 2 }
+  ]
+}

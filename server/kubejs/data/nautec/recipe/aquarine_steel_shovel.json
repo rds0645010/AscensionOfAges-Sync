@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "nautec:aquarine_steel_ingot"
+    },
+    "G": {
+      "item": "nautec:gear"
+    },
+    "R": {
+      "item": "nautec:cast_iron_rod"
+    }
+  },
+  "pattern": [
+    " A ",
+    " G ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nautec:aquarine_steel_shovel"
+  }
+}

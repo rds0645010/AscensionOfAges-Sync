@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "cataclysm:maledictus",
+    "cataclysm:the_leviathan",
+    "bosses_of_mass_destruction:obsidilith",
+    "fdbosses:geburah",
+    "eternal_starlight:the_gatekeeper",
+    "eternal_starlight:starlight_golem",
+    "eternal_starlight:permafrost",
+    "eternal_starlight:lunar_monstrosity",
+    "macabre:valamon",
+    "macabre:gomoria",
+    "macabre:gargamaw",
+    "macabre:baal",
+    "macabre:morphegor",
+    "macabre:dead_god",
+    "macabre:meshuggeneh",
+    "astral_dimension:void_titan",
+    "astral_dimension:angel_boss",
+    "astral_dimension:tower_of_malice",
+    "astral_dimension:helioos",
+    "astral_dimension:undoing",
+    "astral_dimension:amethyst_knight"
+  ]
+}

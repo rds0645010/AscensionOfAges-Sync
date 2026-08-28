@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Xziphoz",
+      "uniqueId": "b7a5c9e0-83ce-4c6e-a3ce-a236fa957293"
+    },
+    "time": 1783563491782,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3rmWc91mat"
+    }
+  }
+]

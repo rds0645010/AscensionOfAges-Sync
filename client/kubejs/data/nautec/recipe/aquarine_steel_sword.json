@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "nautec:aquarine_steel_ingot"
+    },
+    "C": {
+      "item": "nautec:laser_channeling_coil"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nautec:aquarine_steel_sword"
+  }
+}

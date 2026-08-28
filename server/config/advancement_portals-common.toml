@@ -1,0 +1,60 @@
+#Advancement Portals - common/server configuration
+#
+#Dimension gate entry formats:
+#  Recommended: dimension | ALL | advancement, advancement
+#  Recommended: dimension | ANY | advancement, advancement
+#  Legacy:      dimension=[advancement,advancement]
+#
+#ALL means every listed advancement is required.
+#ANY means completing one listed advancement unlocks the dimension.
+#Advancement IDs use the normal namespace:path format.
+#Dimension gates. Existing 1.0.x entries remain compatible.
+#Examples:
+#  minecraft:the_nether | ALL | minecraft:story/mine_diamond, minecraft:story/enchant_item
+#  minecraft:the_end | ANY | minecraft:end/kill_dragon, mypack:quests/end_access
+dimensionRequirements = ["minecraft:the_nether=[minecraft:story/enchant_item,minecraft:story/mine_diamond]", "minecraft:the_end=[bosses_of_mass_destruction:adventure/void_blossom_defeat]"]
+
+[dimensionGating]
+	#Master switch for all dimension portal gating.
+	enabled = true
+	#Allow players in Creative mode to ignore dimension gates.
+	creativePlayersBypassGates = true
+	#Allow players in Spectator mode to ignore dimension gates.
+	spectatorPlayersBypassGates = true
+	#Allow server operators at the configured permission level to ignore gates.
+	operatorsBypassGates = true
+	#Permission level required for the operator bypass. Vanilla operator levels are 1 through 4.
+	# Default: 2
+	# Range: 1 ~ 4
+	operatorBypassPermissionLevel = 2
+	#How often a blocked player may receive the portal warning again.
+	# Default: 2
+	# Range: 0 ~ 60
+	warningCooldownSeconds = 2
+	#Portal cooldown applied after blocked travel. 20 ticks is one second.
+	#This reduces repeated travel events without making the player wait through
+	#Minecraft's much longer default post-teleport portal cooldown. Set to 0 to disable.
+	# Default: 20
+	# Range: 0 ~ 200
+	blockedPortalRetryDelayTicks = 20
+	#Show each advancement description beneath its title when portal travel is blocked.
+	showAdvancementDescriptions = true
+	#Tell a player when an earned advancement finishes a dimension gate.
+	showDimensionUnlockMessages = true
+
+[ftbTeams]
+	#Share earned advancements with members of the same FTB Teams party.
+	#This option is ignored safely when FTB Teams is not installed.
+	#The sharing system also stores progress for offline party members.
+	shareAdvancementsWithTeam = true
+	#When true, only advancements referenced by dimensionRequirements are shared.
+	#When false, all newly earned non-recipe advancements are shared. Portal requirements
+	#are additionally synchronized from existing player progress when teammates log in or use a portal.
+	shareOnlyPortalAdvancements = true
+	#Share recipe-only advancements (IDs under the recipes folder).
+	#Disabled by default to avoid large amounts of invisible recipe advancement traffic.
+	shareRecipeAdvancements = false
+	#Apply stored team advancement progress whenever a player joins the server.
+	syncTeamAdvancementsOnLogin = true
+	#Show a small message when an advancement is received from a teammate.
+	notifySharedAdvancements = true

@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": {
+    "neovitae:well_of_suffering": {
+      "activation_cost": 50000,
+      "crystal_level": 1,
+      "refresh_cost": 2
+    },
+    "neovitae:meteor": {
+      "activation_cost": 250000,
+      "crystal_level": 1,
+      "refresh_cost": 0
+    },
+    "neovitae:crystallum_fractura": {
+      "activation_cost": 100000,
+      "crystal_level": 1,
+      "refresh_cost": 200,
+      "refresh_time": 100
+    },
+    "neovitae:armour_evolve": {
+      "activation_cost": 50000,
+      "crystal_level": 1,
+      "refresh_cost": 25000
+    },
+    "neovitae:forsaken_soul": {
+      "activation_cost": 40000,
+      "crystal_level": 1,
+      "refresh_cost": 100
+    }
+  }
+}

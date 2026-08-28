@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "well_quality_forge": {
+      "trigger": "overgeared:forging_quality",
+      "conditions": {
+        "quality": "well"
+      }
+    }
+  },
+  "requirements": [
+    ["well_quality_forge"]
+  ]
+}

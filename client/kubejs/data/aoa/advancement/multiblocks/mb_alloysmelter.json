@@ -1,0 +1,31 @@
+{
+  "parent": "immersiveengineering:multiblocks/multiblocks_root",
+  "criteria": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/alloy_smelter"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.aoa.multiblocks.mb_alloysmelter.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:alloybrick"
+    },
+    "title": {
+      "translate": "advancement.aoa.multiblocks.mb_alloysmelter.title"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.gilded_ledger.mechanics.chartered_arcana.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "occultism:book_of_binding_afrit"
+  },
+  "name": "book.aoa.gilded_ledger.mechanics.chartered_arcana.name",
+  "pages": [
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.gilded_ledger.mechanics.chartered_arcana.page1.text",
+      "title": "book.aoa.gilded_ledger.mechanics.chartered_arcana.page1.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 4,
+  "x": 1,
+  "y": 2
+}

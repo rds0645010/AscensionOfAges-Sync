@@ -1,0 +1,17 @@
+{
+  "_comment": "AoA modded-biome spawn fix: swamp fauna on #c:is_swamp (RU/BWG/Terralith all populate it). LivingThings crab/flamingo/snail + Born in Chaos thornshell_crab.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#c:is_swamp",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:crab", "weight": 60, "minCount": 5, "maxCount": 8 },
+    { "type": "livingthings:flamingo", "weight": 26, "minCount": 3, "maxCount": 6 },
+    { "type": "livingthings:snail", "weight": 6, "minCount": 1, "maxCount": 2 },
+    { "type": "born_in_chaos_v1:thornshell_crab", "weight": 8, "minCount": 1, "maxCount": 1 }
+  ]
+}

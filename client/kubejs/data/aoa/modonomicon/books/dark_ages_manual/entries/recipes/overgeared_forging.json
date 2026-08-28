@@ -1,0 +1,62 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "recipes",
+  "description": "book.aoa.dark_ages_manual.recipes.overgeared_forging.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "overgeared:copper_smithing_hammer"
+  },
+  "name": "book.aoa.dark_ages_manual.recipes.overgeared_forging.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page1.text",
+      "title": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page2.text",
+      "title": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page2.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page3.text",
+      "title": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page3.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page4.text",
+      "title": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page4.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page5.text",
+      "title": "book.aoa.dark_ages_manual.recipes.overgeared_forging.page5.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 2,
+  "y": 0
+}

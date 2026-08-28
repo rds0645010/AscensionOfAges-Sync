@@ -1,0 +1,30 @@
+{
+    "parent": "apotheosis:progression/haven",
+    "criteria": {
+        "ftbq_grant": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ftbq_grant"
+        ]
+    ],
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.frontier.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_sword"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.frontier.title"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "sends_telemetry_event": true
+}

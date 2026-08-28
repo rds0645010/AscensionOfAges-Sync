@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mods",
+  "description": "book.aoa.industrial_codex.mods.the_deep_places.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "deeperdarker:resonarium"
+  },
+  "name": "book.aoa.industrial_codex.mods.the_deep_places.name",
+  "pages": [
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.industrial_codex.mods.the_deep_places.page1.text",
+      "title": "book.aoa.industrial_codex.mods.the_deep_places.page1.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    },
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.industrial_codex.mods.the_deep_places.page2.text",
+      "title": "book.aoa.industrial_codex.mods.the_deep_places.page2.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 5,
+  "x": 4,
+  "y": 2
+}

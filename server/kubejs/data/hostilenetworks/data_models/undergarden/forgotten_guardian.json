@@ -1,0 +1,18 @@
+{
+  "entity": "undergarden:forgotten_guardian",
+  "variants": [],
+  "name": {
+    "translate": "entity.undergarden.forgotten_guardian",
+    "color": "#5E6B5A"
+  },
+  "display": {},
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "aoa.trivia.no_fabricated_spine_boss_proof",
+  "fabricator_drops": []
+}

@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.industrial_codex.mechanics.fuel_is_not_universal.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "modern_industrialization:lv_diesel_generator"
+  },
+  "name": "book.aoa.industrial_codex.mechanics.fuel_is_not_universal.name",
+  "pages": [
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.industrial_codex.mechanics.fuel_is_not_universal.page1.text",
+      "title": "book.aoa.industrial_codex.mechanics.fuel_is_not_universal.page1.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    },
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.industrial_codex.mechanics.fuel_is_not_universal.page2.text",
+      "title": "book.aoa.industrial_codex.mechanics.fuel_is_not_universal.page2.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 2,
+  "x": 4,
+  "y": 0
+}

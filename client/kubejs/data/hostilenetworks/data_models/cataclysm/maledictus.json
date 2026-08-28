@@ -1,0 +1,18 @@
+{
+  "entity": "cataclysm:maledictus",
+  "variants": [],
+  "name": {
+    "translate": "entity.cataclysm.maledictus",
+    "color": "#3F3A33"
+  },
+  "display": {},
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "aoa.trivia.no_fabricated_spine_boss_proof",
+  "fabricator_drops": []
+}

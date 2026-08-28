@@ -1,0 +1,31 @@
+{
+  "_comment": "AoA night variety: cull 24 generic/swarm/pumpkin-filler Born in Chaos undead from the overworld spawn pool so night mob variety rises (relative share of Rotten Creatures, Mutant Monsters and vanilla goes up) without eliminating BiC. The 21 distinctive BiC mobs kept (spirits, hunters, Krampus, apex knights, aquatic niche) still spawn via their native jar biome modifiers plus the themed nightfix_bic_* add files. This list is DISJOINT from every nightfix_bic_* add_spawns file: NeoForge applies biome modifiers in fixed phases (ADD before REMOVE), so any id that were in both an add file and this remove file would be silently negated. Rotten Creatures and Mutant Monsters are intentionally untouched.",
+  "type": "neoforge:remove_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "entity_types": [
+    "born_in_chaos_v1:decaying_zombie",
+    "born_in_chaos_v1:decrepit_skeleton",
+    "born_in_chaos_v1:baby_skeleton",
+    "born_in_chaos_v1:barrel_zombie",
+    "born_in_chaos_v1:zombie_bruiser",
+    "born_in_chaos_v1:zombie_clown",
+    "born_in_chaos_v1:zombie_lumberjack",
+    "born_in_chaos_v1:siamese_skeletons",
+    "born_in_chaos_v1:skeleton_thrasher",
+    "born_in_chaos_v1:skeleton_demoman",
+    "born_in_chaos_v1:bonescaller",
+    "born_in_chaos_v1:supreme_bonescaller",
+    "born_in_chaos_v1:mother_spider",
+    "born_in_chaos_v1:baby_spider",
+    "born_in_chaos_v1:swarmer",
+    "born_in_chaos_v1:dire_hound_leader",
+    "born_in_chaos_v1:bone_imp",
+    "born_in_chaos_v1:corpse_fly",
+    "born_in_chaos_v1:bloody_gadfly",
+    "born_in_chaos_v1:mr_pumpkin",
+    "born_in_chaos_v1:mrs_pumpkin",
+    "born_in_chaos_v1:pumpkin_dunce",
+    "born_in_chaos_v1:pumpkin_bruiser",
+    "born_in_chaos_v1:senor_pumpkin"
+  ]
+}

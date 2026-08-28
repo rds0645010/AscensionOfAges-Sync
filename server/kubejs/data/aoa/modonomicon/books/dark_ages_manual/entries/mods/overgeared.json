@@ -1,0 +1,26 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mods",
+  "description": "book.aoa.dark_ages_manual.mods.overgeared.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "overgeared:copper_smithing_hammer"
+  },
+  "name": "book.aoa.dark_ages_manual.mods.overgeared.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.mods.overgeared.page1.text",
+      "title": "book.aoa.dark_ages_manual.mods.overgeared.page1.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 5,
+  "x": 4,
+  "y": 2
+}

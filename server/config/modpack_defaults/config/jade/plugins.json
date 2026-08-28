@@ -1,0 +1,229 @@
+{
+  "minecraft": {
+    "item_storage.show_name_amount": 5,
+    "furnace": true,
+    "harvest_tool.show_unbreakable": false,
+    "animal_owner": true,
+    "harvest_tool.effective_tool": true,
+    "energy_storage.style": "PROGRESS_BAR",
+    "item_storage": true,
+    "item_storage.normal_amount": 9,
+    "harvest_tool": true,
+    "armor_stand": true,
+    "fluid_storage.detailed": false,
+    "next_entity_drop": true,
+    "energy_storage": true,
+    "entity_armor.max_for_render": 20,
+    "breaking_progress": true,
+    "tnt_stability": true,
+    "item_storage.items_per_line": 9,
+    "item_frame": true,
+    "crop_progress": true,
+    "command_block": true,
+    "mob_growth": true,
+    "waxed": true,
+    "harvest_tool.new_line": false,
+    "entity_health.max_for_render": 40,
+    "entity_health.show_fractions": false,
+    "mob_spawner": true,
+    "redstone": true,
+    "fluid_storage": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "energy_storage.detailed": false,
+    "note_block": true,
+    "fluid_storage.style": "PROGRESS_BAR",
+    "beehive": true,
+    "item_storage.detailed_amount": 54,
+    "player_head": true,
+    "lectern": true,
+    "entity_armor": false,
+    "harvest_tool.creative": false,
+    "horse_stats": true,
+    "item_tooltip": false,
+    "entity_health": false,
+    "enchantment_power": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "mob_breeding": true,
+    "entity_health.icons_per_line": 10,
+    "total_enchantment_power": true,
+    "potion_effects": false,
+    "painting": true,
+    "chiseled_bookshelf": true
+  },
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
+  },
+  "apothic_spawners": {
+    "spawner": true
+  },
+  "hostilenetworks": {
+    "io_port_mode": true
+  },
+  "minecolonies_compatibility": {
+    "crop.age": true,
+    "postbox.requested": true,
+    "stash.requested": true
+  },
+  "ftbquests": {
+    "barrier": true
+  },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": false
+  },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
+  "eclipticseasons": {
+    "greenhouse_core": true,
+    "animal": true,
+    "cauldron": true,
+    "crop": true,
+    "snowy_status": true,
+    "crop.shift_hint": true
+  },
+  "hammerlib": {
+    "root": true
+  },
+  "betternether": {
+    "plant_growth": true
+  },
+  "enderio": {
+    "soul_bound": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "productivemetalworks": {
+    "casting": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "astages": {
+    "block_component_provider": true
+  },
+  "neovitae": {
+    "block_info": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "tombstone": {
+    "decorative_graves": true,
+    "player_graves": true
+  },
+  "oritech": {
+    "machine_core_controller": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "extrastorage": {
+    "advanced_crafter": true
+  },
+  "apotheosis": {
+    "adventure": true
+  },
+  "modern_industrialization": {
+    "overclock": true,
+    "pipe": true
+  },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
+  },
+  "apothic_enchanting": {
+    "ench": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "nautec": {
+    "aquatic_catalyst": true,
+    "laser_junction": true,
+    "mixer": true
+  },
+  "betterend": {
+    "plant_growth": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  }
+}

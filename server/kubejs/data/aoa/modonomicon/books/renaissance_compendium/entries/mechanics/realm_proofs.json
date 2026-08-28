@@ -1,0 +1,28 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.renaissance_compendium.mechanics.realm_proofs.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "minecraft:end_portal_frame"
+  },
+  "name": "book.aoa.renaissance_compendium.mechanics.realm_proofs.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.mechanics.realm_proofs.page1.text",
+      "title": "book.aoa.renaissance_compendium.mechanics.realm_proofs.page1.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 2,
+  "y": 0
+}

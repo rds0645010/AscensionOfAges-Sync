@@ -1,0 +1,18 @@
+{
+  "_comment": "AoA modded-biome spawn fix: river fauna on #minecraft:is_river (RU + Terralith populate it; BWG adds no river biomes). LivingThings crab/flamingo/snail/mantaray + Born in Chaos thornshell_crab.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_river",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:crab", "weight": 60, "minCount": 5, "maxCount": 8 },
+    { "type": "livingthings:flamingo", "weight": 26, "minCount": 3, "maxCount": 6 },
+    { "type": "livingthings:snail", "weight": 6, "minCount": 1, "maxCount": 2 },
+    { "type": "livingthings:mantaray", "weight": 12, "minCount": 2, "maxCount": 5 },
+    { "type": "born_in_chaos_v1:thornshell_crab", "weight": 8, "minCount": 1, "maxCount": 1 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "background_u_index": 0, "background_v_index": 0, "category": "bosses",
+  "description": "book.aoa.atomic_dossier.bosses.baal.description",
+  "hide_while_locked": false,
+  "icon": { "item": "macabre:baal_heart" },
+  "name": "book.aoa.atomic_dossier.bosses.baal.name",
+  "pages": [
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.atomic_dossier.bosses.baal.page1.text", "title": "book.aoa.atomic_dossier.bosses.baal.page1.title", "use_markdown_in_title": false },
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.atomic_dossier.bosses.baal.page2.text", "title": "book.aoa.atomic_dossier.bosses.baal.page2.title", "use_markdown_in_title": false }
+  ],
+  "show_when_any_parent_unlocked": false, "sort_number": 6, "x": 0, "y": 4
+}

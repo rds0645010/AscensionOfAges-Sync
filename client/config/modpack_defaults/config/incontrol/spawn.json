@@ -1,0 +1,272 @@
+[
+  {
+    "when": "onjoin",
+    "spawner": true,
+    "mob": [
+      "cataclysm:the_leviathan",
+      "bosses_of_mass_destruction:obsidilith",
+      "fdbosses:geburah",
+      "macabre:valamon",
+      "macabre:gomoria",
+      "macabre:gargamaw",
+      "macabre:baal",
+      "astral_dimension:void_titan",
+      "astral_dimension:angel_boss",
+      "astral_dimension:tower_of_malice",
+      "astral_dimension:helioos",
+      "astral_dimension:undoing",
+      "astral_dimension:amethyst_knight"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "minecraft:phantom",
+    "mincount": {
+      "amount": 2,
+      "mob": "minecraft:phantom",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "monsterplus:ancient_hero",
+    "result": "allow"
+  },
+  {
+    "spawntype": "natural",
+    "passive": true,
+    "mod": "crittersandcompanions",
+    "mincount": {
+      "amount": 6,
+      "mod": "crittersandcompanions",
+      "passive": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "mob": "crittersandcompanions:roly_poly",
+    "mincount": {
+      "amount": 3,
+      "mob": "crittersandcompanions:roly_poly",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "mob": "crittersandcompanions:snail",
+    "mincount": {
+      "amount": 3,
+      "mob": "crittersandcompanions:snail",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "passive": true,
+    "mod": "cnb",
+    "mincount": {
+      "amount": 6,
+      "mod": "cnb",
+      "passive": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "mob": "cnb:sporeling",
+    "mincount": {
+      "amount": 3,
+      "mob": "cnb:sporeling",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "passive": true,
+    "mod": "livingthings",
+    "mincount": {
+      "amount": 6,
+      "mod": "livingthings",
+      "passive": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "mob": "livingthings:snail",
+    "mincount": {
+      "amount": 4,
+      "mob": "livingthings:snail",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "hostile": true,
+    "mod": "minecraft",
+    "mincount": {
+      "amount": 24,
+      "mod": "minecraft",
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "hostile": true,
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 10,
+      "mod": "alexsmobs",
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "hostile": true,
+    "mod": "born_in_chaos_v1",
+    "mincount": {
+      "amount": 10,
+      "mod": "born_in_chaos_v1",
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "hostile": true,
+    "mod": "creeperoverhaul",
+    "mincount": {
+      "amount": 10,
+      "mod": "creeperoverhaul",
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "hostile": true,
+    "mod": "macabre",
+    "mincount": {
+      "amount": 12,
+      "mod": "macabre",
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "hostile": true,
+    "mod": "monsterplus",
+    "mincount": {
+      "amount": 12,
+      "mod": "monsterplus",
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "spawntype": "natural",
+    "hostile": true,
+    "mod": "zoniex",
+    "mincount": {
+      "amount": 8,
+      "mod": "zoniex",
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "hostile": true,
+    "seesky": false,
+    "maxheight": 20,
+    "mincount": {
+      "amount": 70,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "hostile": true,
+    "seesky": false,
+    "maxheight": 64,
+    "mincount": {
+      "amount": 70,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "hostile": true,
+    "seesky": true,
+    "mincount": {
+      "amount": 70,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "minecraft:slime",
+    "maxheight": 40,
+    "mincount": {
+      "amount": 8,
+      "mob": "minecraft:slime",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "minecraft:bat",
+    "maxheight": 64,
+    "mincount": {
+      "amount": 16,
+      "mob": "minecraft:bat",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "zoniex:skin_crawler",
+    "mincount": {
+      "amount": 1,
+      "mob": "zoniex:skin_crawler",
+      "perchunk": true
+    },
+    "result": "deny"
+  }
+]

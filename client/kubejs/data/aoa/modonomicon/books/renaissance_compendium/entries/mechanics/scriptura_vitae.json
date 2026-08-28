@@ -1,0 +1,50 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "neovitae:blood_orb_weak"
+  },
+  "name": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.page1.text",
+      "title": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.page2.text",
+      "title": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.page2.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.page3.text",
+      "title": "book.aoa.renaissance_compendium.mechanics.scriptura_vitae.page3.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 5,
+  "x": 4,
+  "y": 2
+}

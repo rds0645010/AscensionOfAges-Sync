@@ -1,0 +1,70 @@
+{
+  "#c:dusts/fissile": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:dusts/thorium": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:fuel_rods/heuo2": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:fuel_rods/leuo2": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:fuel_rods/plutonium": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:fuel_rods/spent": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:nuggets/polonium": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:oxide/actinium": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:oxide/plutonium": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:pellets/actinium225": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:pellets/lifht4puf3": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:pellets/plutonium": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:pellets/polonium": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:pellets/uranium235": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:pellets/uranium238": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:salts/fissile": {
+    "amount": 0.0,
+    "strength": 0.0
+  },
+  "#c:yellow_cake_uranium": {
+    "amount": 0.0,
+    "strength": 0.0
+  }
+}

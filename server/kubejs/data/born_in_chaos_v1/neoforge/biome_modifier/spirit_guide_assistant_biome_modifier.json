@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#aoa:disabled_spawn_biomes",
+  "spawners": {
+    "type": "born_in_chaos_v1:spirit_guide_assistant",
+    "weight": 9,
+    "minCount": 2,
+    "maxCount": 2
+  }
+}

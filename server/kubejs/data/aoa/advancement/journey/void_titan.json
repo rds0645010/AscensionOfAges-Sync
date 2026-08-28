@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "astral_dimension:void_gem"
+    },
+    "title": {
+      "translate": "advancement.aoa.journey.void_titan.title"
+    },
+    "description": {
+      "translate": "advancement.aoa.journey.void_titan.description"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "SBS", "SSS"],
+  "key": { "S": "forbidden_arcanus:soul", "B": "minecraft:book" },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:stored_enchantments": { "levels": { "forbidden_arcanus:soul_looting": 1 } }
+    }
+  }
+}

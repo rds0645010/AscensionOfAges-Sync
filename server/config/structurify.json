@@ -1,0 +1,669 @@
+{
+  "config_version": "2.0.22",
+  "config_datetime": "2026-06-19_12-00-00",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 3.5
+  },
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:village_plains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "minecraft:village_desert",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_classic",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_iberian",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_mediterranean",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_nilotic",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_piglin",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_rustic",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_swedish",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_tudor",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_wandering_trader_camp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_badlands",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_beach",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_birch_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_flower_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_forest",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_grove",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_meadow",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_mushroom_fields",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_ocean",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_old_growth_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_savanna_plateau",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_snowy_slopes",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_snowy_taiga",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_sparse_jungle",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_sunflower_plains",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_swamp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "towns_and_towers:village_wooded_badlands",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "terralith:fortified_village",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "terralith:fortified_desert_village",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "biomeswevegone:village/forgotten",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "biomeswevegone:village/pumpkin_patch",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "biomeswevegone:village/red_rock",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "biomeswevegone:village/salem",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "biomeswevegone:village/skyris",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    },
+    {
+      "name": "biomeswevegone:village/swamp",
+      "override_global_biome_check": true,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean",
+        "#minecraft:is_mountain",
+        "#c:is_mountain",
+        "#c:is_peak"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 12,
+      "separation": 8,
+      "name": "spectrum:excavation_site",
+      "is_disabled": false,
+      "salt": 4567989,
+      "frequency": 0.65300006,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "spectrum:excavation_site": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "minecraft:villages",
+      "is_disabled": false,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 48,
+      "separation": 24,
+      "name": "towns_and_towers:towns",
+      "is_disabled": false,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 40,
+      "separation": 16,
+      "name": "terralith:rare_village",
+      "is_disabled": false,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "biomeswevegone:villages",
+      "is_disabled": false,
+      "override_global_spacing_and_separation_modifier": true
+    }
+  ]
+}

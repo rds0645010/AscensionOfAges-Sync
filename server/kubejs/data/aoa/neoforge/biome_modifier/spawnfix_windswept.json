@@ -1,0 +1,14 @@
+{
+  "_comment": "AoA modded-biome spawn fix: EndermanOverhaul's windswept_hills variant is pinned to the vanilla windswept_hills biome only. Re-add on #c:is_windswept (RU/BWG/Terralith all populate it) so it appears in modded windswept biomes. EO already covers most variants via broad tags; these 4 single-biome ones were the gap.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#c:is_windswept",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "endermanoverhaul:windswept_hills_enderman", "weight": 10, "minCount": 1, "maxCount": 4 }
+  ]
+}

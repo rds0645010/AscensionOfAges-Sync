@@ -1,0 +1,28 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mods",
+  "description": "book.aoa.industrial_codex.mods.pressure_and_plastic.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "pneumaticcraft:air_compressor"
+  },
+  "name": "book.aoa.industrial_codex.mods.pressure_and_plastic.name",
+  "pages": [
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.industrial_codex.mods.pressure_and_plastic.page1.text",
+      "title": "book.aoa.industrial_codex.mods.pressure_and_plastic.page1.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 4,
+  "x": 2,
+  "y": 2
+}

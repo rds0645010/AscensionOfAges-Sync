@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["granted_by_shim"]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "advancement.aoa.age.medieval_times.title"
+    },
+    "description": {
+      "translate": "advancement.aoa.age.medieval_times.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  }
+}

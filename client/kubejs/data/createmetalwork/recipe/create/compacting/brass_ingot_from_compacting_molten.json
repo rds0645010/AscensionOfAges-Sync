@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 111,
+      "tag": "c:molten_brass"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:brass_ingot"
+    }
+  ]
+}

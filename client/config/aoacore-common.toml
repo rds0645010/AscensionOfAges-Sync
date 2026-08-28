@@ -1,0 +1,5 @@
+[questgraph]
+	#Allows non-admin players to run /aoa backtrack for quest dependency checks.
+	questgraphPlayerBacktrackEnabled = true
+	#Reserved privacy switch. Non-admin /aoa backtrack stays static-visible only.
+	questgraphPlayerBacktrackIncludesHidden = false

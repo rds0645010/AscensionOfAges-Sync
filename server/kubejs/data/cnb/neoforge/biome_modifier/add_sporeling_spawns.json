@@ -1,0 +1,34 @@
+{
+  "type": "cnb:add_costed_spawns",
+  "entityType": "cnb:sporeling",
+  "spawns": [
+    {
+      "biomes": "#c:is_mushroom",
+      "category": "creature",
+      "weight": 10,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "biomes": "#c:is_swamp",
+      "category": "creature",
+      "weight": 10,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "biomes": ["minecraft:lush_caves"],
+      "category": "creature",
+      "weight": 12,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "biomes": ["minecraft:dark_forest"],
+      "category": "creature",
+      "weight": 12,
+      "min": 1,
+      "max": 2
+    }
+  ]
+}

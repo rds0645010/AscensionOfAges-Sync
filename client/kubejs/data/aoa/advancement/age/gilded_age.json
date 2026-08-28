@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["granted_by_shim"]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancement.aoa.age.gilded_age.title"
+    },
+    "description": {
+      "translate": "advancement.aoa.age.gilded_age.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  }
+}

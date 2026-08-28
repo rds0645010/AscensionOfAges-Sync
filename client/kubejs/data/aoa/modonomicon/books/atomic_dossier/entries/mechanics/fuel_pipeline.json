@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.atomic_dossier.mechanics.fuel_pipeline.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "nuclearscience:fuelleuo2"
+  },
+  "name": "book.aoa.atomic_dossier.mechanics.fuel_pipeline.name",
+  "pages": [
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.atomic_dossier.mechanics.fuel_pipeline.page1.text",
+      "title": "book.aoa.atomic_dossier.mechanics.fuel_pipeline.page1.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    },
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.atomic_dossier.mechanics.fuel_pipeline.page2.text",
+      "title": "book.aoa.atomic_dossier.mechanics.fuel_pipeline.page2.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 0,
+  "y": 0
+}

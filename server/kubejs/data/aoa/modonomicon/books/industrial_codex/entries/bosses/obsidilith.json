@@ -1,0 +1,12 @@
+{
+  "background_u_index": 0, "background_v_index": 0, "category": "bosses",
+  "description": "book.aoa.industrial_codex.bosses.obsidilith.description",
+  "hide_while_locked": false,
+  "icon": { "item": "bosses_of_mass_destruction:obsidian_heart" },
+  "name": "book.aoa.industrial_codex.bosses.obsidilith.name",
+  "pages": [
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.industrial_codex.bosses.obsidilith.page1.text", "title": "book.aoa.industrial_codex.bosses.obsidilith.page1.title", "use_markdown_in_title": false },
+    { "type": "modonomicon:text", "anchor": "", "condition": { "type": "modonomicon:none" }, "show_title_separator": true, "text": "book.aoa.industrial_codex.bosses.obsidilith.page2.text", "title": "book.aoa.industrial_codex.bosses.obsidilith.page2.title", "use_markdown_in_title": false }
+  ],
+  "show_when_any_parent_unlocked": false, "sort_number": 2, "x": 4, "y": 0
+}

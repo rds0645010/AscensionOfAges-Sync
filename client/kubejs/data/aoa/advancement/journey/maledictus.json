@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "cataclysm:cursium_ingot"
+    },
+    "title": {
+      "translate": "advancement.aoa.journey.maledictus.title"
+    },
+    "description": {
+      "translate": "advancement.aoa.journey.maledictus.description"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  }
+}

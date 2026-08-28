@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "well_quality_blueprint": {
+      "trigger": "overgeared:blueprint_quality",
+      "conditions": {
+        "quality": "well"
+      }
+    }
+  },
+  "requirements": [
+    ["well_quality_blueprint"]
+  ]
+}

@@ -1,0 +1,62 @@
+{
+	icon: {
+		id: "draconicevolution:awakened_draconium_ingot"
+	}
+	id: "23FA9F82A26C65EC"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			id: "42559A682FF14C9B"
+			item: {
+				count: 1
+				id: "draconicevolution:awakened_draconium_ingot"
+			}
+		}
+		{
+			count: 3
+			id: "36F3267141B34282"
+			item: {
+				count: 1
+				id: "draconicevolution:medium_chaos_frag"
+			}
+		}
+		{
+			count: 3
+			id: "16C457C4DE776369"
+			item: {
+				count: 1
+				id: "extendedcrafting:crystaltine_ingot"
+			}
+		}
+		{ id: "73F926A5E4121C5E", item: { count: 1, id: "draconicadditions:item_stable_chaos" } }
+		{
+			count: 2
+			id: "773B5597F52DF632"
+			item: {
+				count: 1
+				id: "extendedcrafting:nether_star_block"
+			}
+		}
+		{
+			count: 2
+			id: "0B718D2DDEFFCCB2"
+			item: {
+				count: 1
+				id: "oritech:prometheum_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "1BAA9765B9D1E361"
+			item: {
+				count: 1
+				id: "avaritia:cosmic_meatballs"
+			}
+		}
+		{ id: "25B2AD27EEC93B0B", item: { count: 1, id: "avaritia:record_fragment" } }
+		{ id: "3303CE838F7C884D", item: { count: 1, id: "create_confectionery:the_bright_side" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,25 @@
+{
+  "_comment": "AoA night rebalance: Rotten Creatures EVEN overworld baseline -- generic undead present everywhere at a uniform weight. Rotten Creatures ships NO natural spawns of its own, so this datapack is the sole source. The biome-themed rotten (frostbitten/glacial_hunter -> snowy, swampy -> swamp, mummy -> desert/badlands, dead_beard -> beach) stack on top in their own biomes.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": [
+    {
+      "type": "rottencreatures:undead_miner",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "rottencreatures:zombie_lackey",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "rottencreatures:skeleton_lackey",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

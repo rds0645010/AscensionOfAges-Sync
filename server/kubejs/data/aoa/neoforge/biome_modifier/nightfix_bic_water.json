@@ -1,0 +1,31 @@
+{
+  "_comment": "AoA night rebalance: Born in Chaos aquatic undead re-homed to beaches and rivers (agg ~24). The union holder set includes overlapping biomes once.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#minecraft:is_beach",
+      "#minecraft:is_river"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:zombie_fisherman",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "born_in_chaos_v1:corpse_fish",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "born_in_chaos_v1:glutton_fish",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

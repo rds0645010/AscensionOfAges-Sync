@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["granted_by_shim"]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:piston"
+    },
+    "title": {
+      "translate": "advancement.aoa.age.industrial_revolution.title"
+    },
+    "description": {
+      "translate": "advancement.aoa.age.industrial_revolution.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  }
+}

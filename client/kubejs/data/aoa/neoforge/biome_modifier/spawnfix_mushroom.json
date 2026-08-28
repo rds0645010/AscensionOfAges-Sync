@@ -1,0 +1,16 @@
+{
+  "_comment": "AoA modded-biome spawn fix: mushroom fauna on #c:is_mushroom (RU + Terralith populate it; BWG has no mushroom biomes). LivingThings shroomie/snail + Alchemist's Garden shroom.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#c:is_mushroom",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:shroomie", "weight": 20, "minCount": 5, "maxCount": 7 },
+    { "type": "livingthings:snail", "weight": 5, "minCount": 1, "maxCount": 2 },
+    { "type": "alchemists_garden:shroom", "weight": 16, "minCount": 2, "maxCount": 6 }
+  ]
+}

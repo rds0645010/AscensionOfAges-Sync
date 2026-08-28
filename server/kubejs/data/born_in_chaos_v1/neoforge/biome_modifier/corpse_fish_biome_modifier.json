@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#aoa:disabled_spawn_biomes",
+  "spawners": {
+    "type": "born_in_chaos_v1:corpse_fish",
+    "weight": 7,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

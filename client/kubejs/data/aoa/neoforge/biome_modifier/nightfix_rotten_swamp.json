@@ -1,0 +1,13 @@
+{
+  "_comment": "AoA night rebalance: Rotten Creatures swampy surfaced in swamps.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_swamp",
+  "spawners": [
+    {
+      "type": "rottencreatures:swampy",
+      "weight": 14,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

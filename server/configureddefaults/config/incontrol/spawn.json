@@ -1,0 +1,112 @@
+[
+  {
+    "when": "onjoin",
+    "spawner": true,
+    "mob": [
+      "cataclysm:the_leviathan",
+      "bosses_of_mass_destruction:obsidilith",
+      "fdbosses:geburah",
+      "macabre:valamon",
+      "macabre:gomoria",
+      "macabre:gargamaw",
+      "macabre:baal",
+      "astral_dimension:void_titan",
+      "astral_dimension:angel_boss",
+      "astral_dimension:tower_of_malice",
+      "astral_dimension:helioos",
+      "astral_dimension:undoing",
+      "astral_dimension:amethyst_knight"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "minecraft:phantom",
+    "mincount": {
+      "amount": 2,
+      "mob": "minecraft:phantom",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "monsterplus:ancient_hero",
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "hostile": true,
+    "seesky": false,
+    "maxheight": 20,
+    "mincount": {
+      "amount": 42,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "hostile": true,
+    "seesky": false,
+    "maxheight": 64,
+    "mincount": {
+      "amount": 48,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "hostile": true,
+    "seesky": true,
+    "mincount": {
+      "amount": 42,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "minecraft:slime",
+    "maxheight": 40,
+    "mincount": {
+      "amount": 8,
+      "mob": "minecraft:slime",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "minecraft:bat",
+    "maxheight": 64,
+    "mincount": {
+      "amount": 16,
+      "mob": "minecraft:bat",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "mob": "zoniex:skin_crawler",
+    "mincount": {
+      "amount": 1,
+      "mob": "zoniex:skin_crawler",
+      "perchunk": true
+    },
+    "result": "deny"
+  }
+]

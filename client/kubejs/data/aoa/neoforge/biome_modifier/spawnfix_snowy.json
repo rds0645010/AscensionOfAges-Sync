@@ -1,0 +1,19 @@
+{
+  "_comment": "AoA modded-biome spawn fix: snowy fauna on #c:is_snowy (RU/BWG/Terralith all populate it). LivingThings penguin + Alchemist's Garden festive_gnome/yeti/baby_yeti/frozen_shroom/ice_giant_head.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#c:is_snowy",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:penguin", "weight": 12, "minCount": 3, "maxCount": 6 },
+    { "type": "alchemists_garden:festive_gnome", "weight": 5, "minCount": 1, "maxCount": 1 },
+    { "type": "alchemists_garden:baby_yeti", "weight": 16, "minCount": 2, "maxCount": 4 },
+    { "type": "alchemists_garden:yeti", "weight": 5, "minCount": 1, "maxCount": 1 },
+    { "type": "alchemists_garden:frozen_shroom", "weight": 16, "minCount": 1, "maxCount": 3 },
+    { "type": "alchemists_garden:ice_giant_head", "weight": 16, "minCount": 1, "maxCount": 3 }
+  ]
+}

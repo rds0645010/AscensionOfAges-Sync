@@ -1,0 +1,25 @@
+{
+  "_comment": "AoA night variety: Born in Chaos winter accents (krampus_henchman, dread_hound, door_knight) themed to snowy biomes after the nightfix_bic_cull filler pass.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_snowy",
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:krampus_henchman",
+      "weight": 12,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "born_in_chaos_v1:dread_hound",
+      "weight": 12,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "born_in_chaos_v1:door_knight",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_comment": "AoA modded-biome spawn fix: add a normalized cross-mod Nether pool only to non-vanilla #minecraft:is_nether biomes. Native vanilla-biome entries remain responsible for vanilla Nether placement.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_nether",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "netherex:flaemoth", "weight": 6, "minCount": 1, "maxCount": 2 },
+    { "type": "netherex:wisp", "weight": 6, "minCount": 1, "maxCount": 2 },
+    { "type": "monsterplus:soul", "weight": 4, "minCount": 1, "maxCount": 2 },
+    { "type": "born_in_chaos_v1:bone_imp", "weight": 6, "minCount": 1, "maxCount": 2 },
+    { "type": "born_in_chaos_v1:firelight", "weight": 6, "minCount": 1, "maxCount": 2 },
+    { "type": "endermanoverhaul:nether_wastes_enderman", "weight": 4, "minCount": 1, "maxCount": 2 }
+  ]
+}

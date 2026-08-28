@@ -1,0 +1,35 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "bosses",
+  "description": "book.aoa.renaissance_compendium.bosses.lich.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "bosses_of_mass_destruction:soul_star"
+  },
+  "name": "book.aoa.renaissance_compendium.bosses.lich.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.bosses.lich.page1.text",
+      "title": "book.aoa.renaissance_compendium.bosses.lich.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.bosses.lich.page2.text",
+      "title": "book.aoa.renaissance_compendium.bosses.lich.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 2,
+  "x": 4,
+  "y": 0
+}

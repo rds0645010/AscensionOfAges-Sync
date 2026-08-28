@@ -1,0 +1,19 @@
+{
+  "_comment": "AoA modded-biome spawn fix: ocean fauna on #minecraft:is_ocean (RU/BWG/Terralith all populate it). LivingThings shark/mantaray/seahorse + CreeperOverhaul ocean_creeper + VariantsAndVentures murk. Slightly broader than the source warm-only lists, but low weights keep it subtle.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_ocean",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:shark", "weight": 13, "minCount": 2, "maxCount": 3 },
+    { "type": "livingthings:mantaray", "weight": 12, "minCount": 2, "maxCount": 5 },
+    { "type": "livingthings:seahorse", "weight": 19, "minCount": 4, "maxCount": 7 },
+    { "type": "creeperoverhaul:ocean_creeper", "weight": 1, "minCount": 1, "maxCount": 1 },
+    { "type": "variantsandventures:murk", "weight": 4, "minCount": 1, "maxCount": 1 },
+    { "type": "endermanoverhaul:coral_enderman", "weight": 5, "minCount": 1, "maxCount": 2 }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "parent": "apotheosis:progression/root",
+    "criteria": {
+        "ftbq_grant": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ftbq_grant"
+        ]
+    ],
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.haven.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:oak_sapling"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.haven.title"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "sends_telemetry_event": true
+}

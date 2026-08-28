@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mods",
+  "description": "book.aoa.renaissance_compendium.mods.magic_spine_neovitae.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "neovitae:athanor"
+  },
+  "name": "book.aoa.renaissance_compendium.mods.magic_spine_neovitae.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.mods.magic_spine_neovitae.page1.text",
+      "title": "book.aoa.renaissance_compendium.mods.magic_spine_neovitae.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.mods.magic_spine_neovitae.page2.text",
+      "title": "book.aoa.renaissance_compendium.mods.magic_spine_neovitae.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

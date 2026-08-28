@@ -1,0 +1,18 @@
+{
+  "entity": "cataclysm:the_leviathan",
+  "variants": [],
+  "name": {
+    "translate": "entity.cataclysm.the_leviathan",
+    "color": "#246A7A"
+  },
+  "display": {},
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "aoa.trivia.no_fabricated_spine_boss_proof",
+  "fabricator_drops": []
+}

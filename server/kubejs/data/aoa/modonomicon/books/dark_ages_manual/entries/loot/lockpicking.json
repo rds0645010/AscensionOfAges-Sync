@@ -1,0 +1,62 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "loot",
+  "description": "book.aoa.dark_ages_manual.loot.lockpicking.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "clavis:lock_pick"
+  },
+  "name": "book.aoa.dark_ages_manual.loot.lockpicking.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.loot.lockpicking.page1.text",
+      "title": "book.aoa.dark_ages_manual.loot.lockpicking.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.loot.lockpicking.page2.text",
+      "title": "book.aoa.dark_ages_manual.loot.lockpicking.page2.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.loot.lockpicking.page3.text",
+      "title": "book.aoa.dark_ages_manual.loot.lockpicking.page3.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.loot.lockpicking.page4.text",
+      "title": "book.aoa.dark_ages_manual.loot.lockpicking.page4.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.dark_ages_manual.loot.lockpicking.page5.text",
+      "title": "book.aoa.dark_ages_manual.loot.lockpicking.page5.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 2,
+  "y": 0
+}

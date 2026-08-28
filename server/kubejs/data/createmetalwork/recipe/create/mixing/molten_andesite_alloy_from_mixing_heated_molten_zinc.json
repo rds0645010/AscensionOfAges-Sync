@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 111,
+      "tag": "c:molten_andesite"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 12,
+      "tag": "c:molten_zinc"
+    }
+  ],
+  "results": [
+    {
+      "amount": 222,
+      "id": "createmetalwork:molten_andesite_alloy"
+    }
+  ],
+  "heat_requirement": "heated"
+}

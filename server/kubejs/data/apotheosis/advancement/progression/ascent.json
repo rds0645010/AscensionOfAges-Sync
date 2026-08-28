@@ -1,0 +1,31 @@
+{
+    "parent": "apotheosis:progression/frontier",
+    "criteria": {
+        "ftbq_grant": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ftbq_grant"
+        ]
+    ],
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.ascent.desc"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:blaze_powder"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.ascent.title"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "sends_telemetry_event": true
+}

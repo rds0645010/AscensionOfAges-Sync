@@ -1,0 +1,19 @@
+{
+  "_comment": "AoA modded-biome spawn fix: LivingThings savanna fauna hard-code vanilla savanna IDs, so they never spawn in Regions Unexplored / BWG / Terralith savannas. Re-add them on the #minecraft:is_savanna tag (all three biome mods populate it). Weights/counts mirror config/livingthings/*.json.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_savanna",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:lion", "weight": 12, "minCount": 2, "maxCount": 4 },
+    { "type": "livingthings:elephant", "weight": 15, "minCount": 3, "maxCount": 5 },
+    { "type": "livingthings:giraffe", "weight": 15, "minCount": 3, "maxCount": 5 },
+    { "type": "livingthings:ostrich", "weight": 15, "minCount": 3, "maxCount": 5 },
+    { "type": "livingthings:peacock", "weight": 15, "minCount": 3, "maxCount": 5 },
+    { "type": "livingthings:koala", "weight": 10, "minCount": 3, "maxCount": 8 }
+  ]
+}

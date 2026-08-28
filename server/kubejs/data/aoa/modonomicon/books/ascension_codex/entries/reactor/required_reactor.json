@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "reactor",
+  "description": "book.aoa.ascension_codex.reactor.required_reactor.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "draconicevolution:reactor_core"
+  },
+  "name": "book.aoa.ascension_codex.reactor.required_reactor.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.ascension_codex.reactor.required_reactor.page1.text",
+      "title": "book.aoa.ascension_codex.reactor.required_reactor.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.ascension_codex.reactor.required_reactor.page2.text",
+      "title": "book.aoa.ascension_codex.reactor.required_reactor.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

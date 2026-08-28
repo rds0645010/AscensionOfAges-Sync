@@ -1,0 +1,35 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "bosses",
+  "description": "book.aoa.renaissance_compendium.bosses.void_blossom.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "bosses_of_mass_destruction:void_thorn"
+  },
+  "name": "book.aoa.renaissance_compendium.bosses.void_blossom.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.bosses.void_blossom.page1.text",
+      "title": "book.aoa.renaissance_compendium.bosses.void_blossom.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.aoa.renaissance_compendium.bosses.void_blossom.page2.text",
+      "title": "book.aoa.renaissance_compendium.bosses.void_blossom.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 3,
+  "x": 0,
+  "y": 2
+}

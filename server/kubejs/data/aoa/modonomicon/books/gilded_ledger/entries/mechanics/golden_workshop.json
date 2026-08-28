@@ -1,0 +1,39 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mechanics",
+  "description": "book.aoa.gilded_ledger.mechanics.golden_workshop.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "extendedcrafting:advanced_auto_table"
+  },
+  "name": "book.aoa.gilded_ledger.mechanics.golden_workshop.name",
+  "pages": [
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.gilded_ledger.mechanics.golden_workshop.page1.text",
+      "title": "book.aoa.gilded_ledger.mechanics.golden_workshop.page1.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    },
+    {
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.aoa.gilded_ledger.mechanics.golden_workshop.page2.text",
+      "title": "book.aoa.gilded_ledger.mechanics.golden_workshop.page2.title",
+      "type": "modonomicon:text",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": -2,
+  "y": 0
+}

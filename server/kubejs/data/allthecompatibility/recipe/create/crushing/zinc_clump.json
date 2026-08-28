@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:clumps/zinc"
+    }
+  ],
+  "results": [
+    {
+      "id": "alltheores:dirty_zinc_dust"
+    },
+    {
+      "chance": 0.5,
+      "id": "create:experience_nugget"
+    }
+  ],
+  "processingTime": 400
+}

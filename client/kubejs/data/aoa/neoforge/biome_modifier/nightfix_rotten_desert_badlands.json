@@ -1,0 +1,19 @@
+{
+  "_comment": "AoA night rebalance: mummy reinforced across deserts and badlands (wt12). The union holder set includes overlapping biomes once.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_desert",
+      "#minecraft:is_badlands"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "rottencreatures:mummy",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

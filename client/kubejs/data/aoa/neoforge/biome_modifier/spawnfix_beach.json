@@ -1,0 +1,15 @@
+{
+  "_comment": "AoA modded-biome spawn fix: beach fauna on #minecraft:is_beach (RU/BWG/Terralith all populate it). LivingThings crab + Born in Chaos thornshell_crab.",
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_beach",
+      { "type": "neoforge:not", "value": "#aoa:vanilla_spawnfix_exclusions" }
+    ]
+  },
+  "spawners": [
+    { "type": "livingthings:crab", "weight": 60, "minCount": 5, "maxCount": 8 },
+    { "type": "born_in_chaos_v1:thornshell_crab", "weight": 8, "minCount": 1, "maxCount": 1 }
+  ]
+}

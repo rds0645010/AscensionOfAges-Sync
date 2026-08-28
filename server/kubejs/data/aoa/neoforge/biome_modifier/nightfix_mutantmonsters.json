@@ -1,0 +1,31 @@
+{
+  "_comment": "AoA night rebalance: Mutant Monsters as rare elite 'oh no' encounters (agg ~8 vs vanilla zombie ~95). Mutant Enderman is the brutal one; kept at wt 1. These are ungated for now because AStages mob gating is blocked by the onPlayerAttack P0 crash bug - re-gate to a later age once that lands.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": [
+    {
+      "type": "mutantmonsters:mutant_zombie",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "mutantmonsters:mutant_skeleton",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "mutantmonsters:mutant_creeper",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "mutantmonsters:mutant_enderman",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

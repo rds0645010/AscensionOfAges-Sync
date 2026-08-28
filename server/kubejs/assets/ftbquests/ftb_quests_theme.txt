@@ -1,0 +1,20 @@
+// Ascension of Ages quest-role colors.
+// CQA's QuestButtonMixin reads these FTBQ per-quest theme colors, then adds
+// hover animation and glow. CQA 1.2.0.3 has no independent role-color config.
+[#aoa_main]
+quest_not_started_color: #C89632
+quest_started_color: #FFAA00
+
+[#aoa_side]
+quest_not_started_color: #9B59B6
+quest_started_color: #FF55FF
+
+[#aoa_boss]
+quest_not_started_color: #B03A2E
+quest_started_color: #FF5555
+
+[#journey_age]
+quest_not_started_color: #4A90D9
+
+[#journey_gate]
+quest_not_started_color: #C0392B

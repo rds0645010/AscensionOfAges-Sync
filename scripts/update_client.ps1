@@ -46,9 +46,12 @@ foreach ($folder in $foldersToSync) {
 
 $sw.Stop()
 $sec = [Math]::Round($sw.ElapsedMilliseconds / 1000, 2)
+$modCount = (Get-ChildItem (Join-Path $TargetMinecraftDir "mods") -Filter "*.jar" -ErrorAction SilentlyContinue).Count
+$repoModCount = (Get-ChildItem (Join-Path $ClientSource "mods") -Filter "*.jar" -ErrorAction SilentlyContinue).Count
 
 Write-Host "`n================================================================" -ForegroundColor Green
 Write-Host "   СИНХРОНИЗАЦИЯ УСПЕШНО ЗАВЕРШЕНА ЗА $sec СЕК!" -ForegroundColor Green
-Write-Host "   Все моды, конфиги и скрипты обновлены до версии сервера." -ForegroundColor White
+Write-Host "   Модов в игре: $modCount (в репозитории: $repoModCount)" -ForegroundColor White
+Write-Host "   Все конфиги, KubeJS и текстуры синхронизированы 1 к 1." -ForegroundColor White
 Write-Host "================================================================" -ForegroundColor Green
 Write-Host "Приятной игры!" -ForegroundColor Cyan
